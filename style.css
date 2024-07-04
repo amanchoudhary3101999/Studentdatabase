@@ -1,0 +1,76 @@
+body {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color for better contrast */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000; /* Black border */
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000; /* Black background for buttons */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #444; /* Darker shade on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #444; /* Dark gray header background */
+    color: #fff; /* White header text color */
+}
+
+thead th {
+    padding: 10px;
+    border: 1px solid #000; /* Black border */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray even row background */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e6e6e6; /* Lighter gray odd row background */
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #000; /* Black border */
+}
+
+.name-cell img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
